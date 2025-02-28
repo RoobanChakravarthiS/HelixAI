@@ -1,0 +1,45 @@
+﻿# Core FastAPI dependencies
+fastapi==0.110.0
+uvicorn==0.29.0
+gunicorn
+# CORS support
+starlette==0.36.3
+groq
+python-multipart==0.0.9
+
+# Google AI & Authentication
+google-auth==2.38.0
+google-genai==1.2.0
+
+# NLP & Image Processing
+numpy==2.0.2
+pillow==11.1.0
+
+# PDF Handling
+pymupdf==1.23.9  # fitz module
+
+# Requests & Networking
+requests==2.32.3
+urllib3==2.3.0
+charset-normalizer==3.4.1
+idna==3.10
+certifi==2025.1.31
+
+# Security
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+rsa==4.9
+
+# Utility Libraries
+pydantic==2.11.0a2
+pydantic_core==2.29.0
+typing_extensions==4.12.2
+websockets==14.2
+cachetools==5.5.2
+annotated-types==0.7.0
+
+# Misc
+colorama==0.4.6
+click==8.1.8
+importlib_metadata==8.6.1
+zipp==3.21.0
