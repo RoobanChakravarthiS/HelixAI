@@ -94,7 +94,7 @@ def analyze_image(file_path):
         ]
 
         completion = groq_client.chat.completions.create(
-            model="llama-3.2-90b-vision-preview",
+            model="llama-3.1-70b-versatile",
             messages=messages,
             temperature=1,
             top_p=1
